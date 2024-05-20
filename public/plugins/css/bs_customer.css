@@ -1,0 +1,62 @@
+/*font*/
+* {
+    font-family: "Inter", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    scroll-behavior: smooth;
+}
+
+/*font playfair display*/
+.font-2 {
+    font-family: "Playfair Display", serif !important;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*main color*/
+.main-color {
+    color: var(--bs-info) !important;
+}
+
+/*doi mau khi active nav*/
+.nav-link.active, .nav-link:hover, .nav-link:focus {
+    color: var(--bs-info) !important;
+}
+
+/*width*/
+.w-fit {
+    width: fit-content;
+}
+
+/*transition*/
+.tran-1 {
+    transition: all 0.1s ease-in-out;
+}
+
+.tran-2 {
+    transition: all 0.2s ease-in-out;
+}
+
+.tran-3 {
+    transition: all 0.3s ease-in-out;
+}
+
+/*font size*/
+.fs-7 {
+    font-size: 0.7rem !important;
+}
+
+/*dropdown nav*/
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+

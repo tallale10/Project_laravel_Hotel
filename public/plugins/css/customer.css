@@ -1,0 +1,157 @@
+/*font*/
+* {
+    font-family: "Inter", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    scroll-behavior: smooth;
+}
+
+.body-custom {
+}
+
+/*margin from navbar*/
+.m-nav {
+    margin-top: 74px !important;
+}
+
+@media (max-width: 768px) {
+    .m-nav {
+        margin-top: 56px !important;
+    }
+}
+
+/*scroll reveal*/
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
+/*font playfair display*/
+.font-2 {
+    font-family: "Playfair Display", serif !important;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*width*/
+.w-fit {
+    width: fit-content;
+}
+
+/*transition*/
+.tran-1 {
+    transition: all 0.1s ease-in-out;
+}
+
+.tran-2 {
+    transition: all 0.2s ease-in-out;
+}
+
+.tran-3 {
+    transition: all 0.3s ease-in-out;
+}
+
+/*font size*/
+.fs-7 {
+    font-size: 0.7rem !important;
+}
+
+/*animate*/
+.animate {
+    animation-duration: 0.2s;
+    -webkit-animation-duration: 0.2s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes slideIn {
+    0% {
+        -webkit-transform: transform;
+        -webkit-opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        -webkit-opacity: 1;
+    }
+
+    0% {
+        -webkit-transform: translateY(1rem);
+        -webkit-opacity: 0;
+    }
+}
+
+.slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+}
+
+.hover-pointer {
+    cursor: pointer;
+}
+
+
+/*navbar*/
+/*hover nav*/
+.nav-link.active {
+    font-weight: bold;
+}
+
+.nav-link.active, .nav-link:hover, .nav-link:focus {
+    color: #3b71ca !important;
+}
+
+/*dropdown nav*/
+.dropright {
+    left: auto !important;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+/*home*/
+#hero_section {
+
+}
+
+.hero-section {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 622px;
+}
+
+.h-ok {
+    height: 622px;
+}
+
+/*validation*/
+.invalid-text {
+    width: auto;
+    font-size: .8rem;
+    color: var(--mdb-danger);
+}
